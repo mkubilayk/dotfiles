@@ -1,0 +1,13 @@
+# os
+._*
+.DS_Store
+.Spotlight-V100
+.Trashes
+Desktop.ini
+Thumbs.db
+
+# logs
+.npm-debug.log
+
+# python
+*.pyc

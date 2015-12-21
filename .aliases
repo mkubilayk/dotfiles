@@ -1,0 +1,52 @@
+# folder shortcuts
+alias db="cd ~/Dropbox"
+alias dv="cd ~/Developer"
+alias dc="cd ~/Documents"
+alias dw="cd ~/Downloads"
+alias ds="cd ~/Design"
+alias dt="cd ~/Desktop"
+
+# list
+alias ls="ls -Gh"
+alias lsa="ls -laFGh"
+
+# navigation
+alias ..="cd .."
+alias ....="cd ../.."
+alias ......="cd ../../.."
+alias ........="cd ../../../.."
+
+# flush dns
+alias flush="dscacheutil -flushcache && killall -HUP mDNSResponder"
+
+# get ip
+alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
+alias localip="ipconfig getifaddr en0"
+
+# ring the terminal bell
+# (useful when executing time-consuming commands)
+alias badge="tput bel"
+
+# lock screen
+alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
+
+# enable aliases to be sudoed
+alias sudo="sudo "
+
+# get week number
+alias week="date +%V"
+
+# stopwatch
+alias timer="echo 'Timer started. Stop with Ctrl-D.' && date && time cat && date"
+
+# serve current folder
+alias serve="python -m SimpleHTTPServer 8000"
+
+# speak vicki
+alias vicki="say -v 'vicki'"
+
+# open up emoji cheat sheet in browser
+alias emojis="open http://www.emoji-cheat-sheet.com/"
+
+# git
+alias git-pretty="git log --graph --oneline --all --decorate"

@@ -1,0 +1,38 @@
+##
+# com.apple.finder
+##
+
+# allow quitting via ⌘ + q; doing so will also hide desktop icons
+defaults write com.apple.finder QuitMenuItem -bool true
+
+# display full posix path as finder window title
+defaults write com.apple.finder _FXShowPosixPathInTitle -bool true
+
+# use list view in all finder windows by default
+# four-letter codes for the other view modes: `icnv`, `clmv`, `Flwv`
+defaults write com.apple.finder FXPreferredViewStyle -string "Nlsv"
+
+##
+# com.apple.dock
+##
+
+# set the icon size of dock items to 28 pixels
+defaults write com.apple.dock tilesize -int 28
+
+# minimize windows into their applications icon
+defaults write com.apple.dock minimize-to-application -bool true
+
+##
+# com.apple.safari
+##
+
+# don't send search queries to apple
+defaults write com.apple.Safari UniversalSearchEnabled -bool false
+defaults write com.apple.Safari SuppressSearchSuggestions -bool true
+
+##
+# com.apple.mail
+##
+
+# disable inline attachments (just show the icons)
+defaults write com.apple.mail DisableInlineAttachmentViewing -bool true

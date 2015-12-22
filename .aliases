@@ -30,6 +30,9 @@ alias badge="tput bel"
 # lock screen
 alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
 
+# start screensave
+alias afks="open -a /System/Library/Frameworks/ScreenSaver.framework/Versions/A/Resources/ScreenSaverEngine.app"
+
 # enable aliases to be sudoed
 alias sudo="sudo "
 

@@ -51,5 +51,11 @@ alias vicki="say -v 'vicki'"
 # open up emoji cheat sheet in browser
 alias emojis="open http://www.emoji-cheat-sheet.com/"
 
+# ipython
+alias ipython="python -m IPython"
+
 # git
 alias git-pretty="git log --graph --oneline --all --decorate"
+
+# functions
+alias git-delete="gitdelwc"

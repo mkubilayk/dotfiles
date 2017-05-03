@@ -1,0 +1,2 @@
+export PROMPT_COMMAND="find_git_branch; find_git_dirty; $PROMPT_COMMAND"
+export PS1="\[\e[33;40m\]\h:\W\[\e[0m\]\[\e[32m\]$git_branch\[\e[0m\] \[\e[33;40m\]\$ \[\e[0m\]"

@@ -59,3 +59,6 @@ alias git-pretty="git log --graph --oneline --all --decorate"
 
 # functions
 alias git-delete="gitdelwc"
+
+# source tree
+alias sourcetree='open -a SourceTree'

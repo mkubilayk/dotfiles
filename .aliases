@@ -55,6 +55,7 @@ alias emojis="open http://www.emoji-cheat-sheet.com/"
 alias ipython="python -m IPython"
 
 # git
+alias g=git
 alias git-pretty="git log --graph --oneline --all --decorate"
 
 # functions

@@ -1,0 +1,15 @@
+[alias]
+	s = status
+	d = diff
+	co = checkout
+	br = branch
+	last = log -1 HEAD
+	cane = commit --amend --no-edit
+	lo = log --oneline -n 10
+	pur = pull --rebase --autostash
+
+	# Interactive rebase with the given number of latest commits
+	reb = "!r() { git rebase -i HEAD~$1; }; r"
+
+	# Find branches containing commit
+	fb = "!f() { git branch -a --contains $1; }; f"

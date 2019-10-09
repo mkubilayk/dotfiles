@@ -13,3 +13,7 @@
 
 	# Find branches containing commit
 	fb = "!f() { git branch -a --contains $1; }; f"
+
+	# List branches
+	lb = "git for-each-ref --sort=-committerdate refs/heads --format='%(color:yellow)%(align:30,right)%(committerdate:relative)%(end)%0a%(color:magenta)%(align:30,right)%(refname:short)%(end) %(color:white)%(contents:subject)%0a'"
+
